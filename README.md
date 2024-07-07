@@ -4,7 +4,7 @@ This is a project based on the AppleII-VGA and Pico-DVI-Sock projects. It is a v
 
 The card can run one mode or the other, but not both simultaneously. To switch between modes, a firmware update is required and opening/closing connections.
 
-For the DVI output to be active, the new firmware developped by Thorsten Brehm (c) 2024 should be used.
+For the DVI output to be active, the new firmware developped by Thorsten Brehm (c) 2024 should be used. https://github.com/ThorstenBr
 
 Procedure to activate DVI mode:
 * v1.5:
