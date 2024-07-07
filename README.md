@@ -24,6 +24,8 @@ Procedure to activate VGA mode:
   program VGA firmware to RPI Pico;
   sloder the 8 soldering pads at GPIOs 14-21.
 
+The pin on the board is for AltChr connection, supported bt A2DVI firmware for alternatiche character sets on non-US versions of Apple2.
+
 Board design by (c) 2024 Ralle Palaveev.
 
 All rights reserved.
