@@ -10,9 +10,7 @@ It is a video output card for Apple2 compatible computers with 2 supported video
 
 The card can run one mode or the other, but not both simultaneously. To switch between modes, a firmware update is required and opening/closing connections.
 
-For the DVI output to be active, the new firmware developped by Thorsten Brehm (c) 2024 should be used.
-
-https://github.com/ThorstenBr
+For the DVI output to be active, the new firmware developped by Thorsten Brehm (c) 2024 should be used. https://github.com/ThorstenBr
 
 Procedure to activate DVI mode:
 * v1.2:
@@ -26,8 +24,6 @@ Procedure to activate DVI mode:
   desloder the 8 soldering pads at GPIOs 14-21.
 
 For the VGA output to be active, the standard firmware developped by Mark Aikens (c) 2024 should be used.
-
-https://github.com/markadev
 
 Procedure to activate VGA mode:
 * v1.2:
