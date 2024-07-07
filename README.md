@@ -4,7 +4,7 @@ This is a project based on the AppleII-VGA and Pico-DVI-Sock projects. It is a v
 
 The card can run one mode or the other, but not both simultaneously. To switch between modes, a firmware update is required and opening/closing connections.
 
-For the DVI output to be active, the new firmware developped by (c) 2024 Thorsten Brehm should be used.
+For the DVI output to be active, the new firmware developped by Thorsten Brehm (c) 2024 should be used.
 
 Procedure to activate DVI mode:
 * v1.5:
@@ -14,7 +14,7 @@ Procedure to activate DVI mode:
   program A2DVI firmware to RPI Pico;
   desloder the 8 soldering pads at GPIOs 14-21.
 
-For the VGA output to be active, the standard firmware developped by (c) 2024 Mark Aikens should be used.
+For the VGA output to be active, the standard firmware developped by Mark Aikens (c) 2024 should be used.
 
 Procedure to activate VGA mode:
 * v1.5:
@@ -26,7 +26,7 @@ Procedure to activate VGA mode:
 
 The pin on the board is for AltChr connection, supported bt A2DVI firmware for alternatiche character sets on non-US versions of Apple2.
 
-Board design by (c) 2024 Ralle Palaveev.
+Board design by Ralle Palaveev (c) 2024.
 
 All rights reserved.
 
