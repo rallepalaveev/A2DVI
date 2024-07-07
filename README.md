@@ -1,6 +1,10 @@
 # A2DVI
 
-This is a project based on the AppleII-VGA and Pico-DVI-Sock projects. It is a video output card for Apple2 compatible computers with 2 supported video modes: VGA or HDMI.
+This is a project based on the AppleII-VGA and Pico-DVI-Sock projects by Mark Aikens and Luke Wren:
+https://github.com/markadev/AppleII-VGA
+https://github.com/Wren6991/PicoDVI
+
+It is a video output card for Apple2 compatible computers with 2 supported video modes: VGA or HDMI.
 
 The card can run one mode or the other, but not both simultaneously. To switch between modes, a firmware update is required and opening/closing connections.
 
