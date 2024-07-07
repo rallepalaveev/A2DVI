@@ -6,8 +6,6 @@ The card can run one mode or the other, but not both simultaneously. To switch b
 
 For the DVI output to be active, the new firmware developped by (c) 2024 Thorsten Brehm should be used.
 
-For the VGA output to be active, the standard firmware developped by (c) 2024 Mark Aikens should be used.
-
 Procedure to activate DVI mode:
 * v1.5:
   program A2DVI firmware to RPI Pico;
@@ -15,7 +13,16 @@ Procedure to activate DVI mode:
 * v1.6:
   program A2DVI firmware to RPI Pico;
   desloder the 8 soldering pads at GPIOs 14-21.
-   
+
+For the VGA output to be active, the standard firmware developped by (c) 2024 Mark Aikens should be used.
+
+Procedure to activate VGA mode:
+* v1.5:
+  program VGA firmware to RPI Pico;
+  close all 9 DIP switches.
+* v1.6:
+  program VGA firmware to RPI Pico;
+  sloder the 8 soldering pads at GPIOs 14-21.
 
 Board design by (c) 2024 Ralle Palaveev.
 
