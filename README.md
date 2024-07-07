@@ -12,8 +12,10 @@ Procedure to activate DVI mode:
   open all 9 DIP switches.
 * v1.6:
   program A2DVI firmware to RPI Pico;
-  desloder the 8 soldering pads at GPIOs 14-21;
-* Lower hardware versions may require that U6 is removed and pins 11, 12 and 13 of U5 are disconnected.
+  desloder the 8 soldering pads at GPIOs 14-21.
+* Lower hardware versions:
+ program A2DVI firmware to RPI Pico;
+ remove U6 and discconnects pins 11, 12 and 13 of U5.
 
 For the VGA output to be active, the standard firmware developped by Mark Aikens (c) 2024 should be used. https://github.com/markadev
 
