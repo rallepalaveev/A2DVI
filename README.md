@@ -1,12 +1,12 @@
 # A2DVI
 
-This is a project based on the AppleII-VGA and Pico-DVI-Sock projects. It is a video output card for Apple2 compatible computers.
+This is a project based on the AppleII-VGA and Pico-DVI-Sock projects. It is a video output card for Apple2 compatible computers with 2 supported video modes: VGA or HDMI.
 
-The board can support 2 video optput modes via one of the VGA or HDMI ports at a time.
+The card can run one mode or the other, but not both simultaneously. To switch between modes, a firmware update is required and opening/closing connections.
 
 For the VGA output to be active, the standard firmware developped by (c) 2024 Mark Aikens should be used.
 
-For the DVI output to be active, the new firmware developped by (c) 2024 Thorsten Brehm shuld be used.
+For the DVI output to be active, the new firmware developped by (c) 2024 Thorsten Brehm should be used.
 
 Board design by (c) 2024 Ralle Palaveev.
 
