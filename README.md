@@ -9,10 +9,10 @@ For the DVI output to be active, the new firmware developped by (c) 2024 Thorste
 For the VGA output to be active, the standard firmware developped by (c) 2024 Mark Aikens should be used.
 
 Procedure to activate DVI mode:
-* v1.5
+* v1.5:
   program A2DVI firmware to RPI Pico
   open all 9 DIP switches
-* v1.6
+* v1.6:
   program A2DVI firmware to RPI Pico
   desloder the 8 soldering pads at GPIOs 14-21
    
