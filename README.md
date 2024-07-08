@@ -1,6 +1,6 @@
 # A2DVI
 
-This is a project based on the AppleII-VGA and Pico-DVI-Sock projects by Mark Aikens and Luke Wren:
+This is a project based on the AppleII-VGA project by Mark Aikens and the Pico-DVI-Sock project by Luke Wren:
 
 https://github.com/markadev/AppleII-VGA
 
