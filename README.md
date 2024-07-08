@@ -10,7 +10,7 @@ It is a video output card for Apple2 compatible computers with 2 supported video
 
 The card can run one mode or the other, but not both simultaneously. To switch between modes, a firmware update is required and opening/closing connections.
 
-For the DVI output to be active, the new firmware developped by Thorsten Brehm (c) 2024 should be used. https://github.com/ThorstenBr
+For the DVI output to be active, the new firmware developped by Thorsten Brehm (c) 2024 should be used: https://github.com/ThorstenBr/A2DVI-Firmware
 
 Procedure to activate DVI mode:
 * v1.2:
@@ -37,6 +37,8 @@ Procedure to activate VGA mode:
   sloder the 8 soldering pads at GPIOs 14-21.
 
 The pin on the v1.5 and v1.6 boards is for AltChr connection, supported by A2DVI firmware for alternative character sets on non-US versions of Apple2.
+
+![A2DVI PCB](v1.6/A2DVI.v1.6.render.png)
 
 Board design by Ralle Palaveev (c) 2024.
 
