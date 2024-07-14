@@ -58,6 +58,8 @@ This is a project based on:
 
 * Thorsten Brehm for firmware development and board design considerations
 
+* Oliver Schmidt on board design considerations
+
 # License
 Board design by Ralle Palaveev (c) 2024.
 
