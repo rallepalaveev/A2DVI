@@ -56,6 +56,8 @@ This is a project based on:
 
 * the PicoDVI project by Luke Wren - https://github.com/Wren6991/PicoDVI
 
+* Thorsten Brehm for firmware development and board design comsiderations
+
 # License
 Board design by Ralle Palaveev (c) 2024.
 
