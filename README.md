@@ -49,7 +49,7 @@ To switch between modes, a firmware update is required and opening/closing conne
 ## Dual-Language Support
 The pin on the v1.5 and later boards is for AltChr connection, supported by A2DVI firmware for switching between alternative character sets on non-US versions of Apple II ("Euro-machines").
 
-![A2DVI PCB](v1.6/A2DVI.v1.6.render.png)
+![A2DVI PCB](v1.6/A2DVI.v1.6.jpg)
 
 # Hardware
 * Based on the PICO controller board.
