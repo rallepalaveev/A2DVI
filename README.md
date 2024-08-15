@@ -47,7 +47,7 @@ To switch between modes, a firmware update is required and opening/closing conne
 * v2.0:
   N.A. - v2.0 is HDMI only.
 ## Dual-Language Support
-The pin on the v1.5 and v1.6 boards is for AltChr connection, supported by A2DVI firmware for switching between alternative character sets on non-US versions of Apple II ("Euro-machines").
+The pin on the v1.5 and later boards is for AltChr connection, supported by A2DVI firmware for switching between alternative character sets on non-US versions of Apple II ("Euro-machines").
 
 ![A2DVI PCB](v1.6/A2DVI.v1.6.render.png)
 
