@@ -25,7 +25,7 @@ To switch between modes, a firmware update is required and opening/closing conne
 * v1.6:
   program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico;
   desloder the 8 soldering pads at GPIOs 14-21.
-  * v1.6:
+* v1.7:
   program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico;
   desloder the 8 soldering pads at GPIOs 14-21; remove VGA sub-board and ribbon cable.
 * v2.0:
