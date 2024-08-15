@@ -25,7 +25,12 @@ To switch between modes, a firmware update is required and opening/closing conne
 * v1.6:
   program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico;
   desloder the 8 soldering pads at GPIOs 14-21.
-
+  * v1.6:
+  program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico;
+  desloder the 8 soldering pads at GPIOs 14-21; remove VGA sub-board and ribbon cable.
+* v2.0:
+  program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico.
+  
 ## Procedure to activate VGA mode
 * v1.2:
   program [VGA firmware](https://github.com/markadev/AppleII-VGA) to RPI Pico;
@@ -36,7 +41,11 @@ To switch between modes, a firmware update is required and opening/closing conne
 * v1.6:
   program [VGA firmware](https://github.com/markadev/AppleII-VGA) to RPI Pico;
   sloder the 8 soldering pads at GPIOs 14-21.
-
+* v1.7:
+  program [VGA firmware](https://github.com/markadev/AppleII-VGA) to RPI Pico;
+  sloder the 8 soldering pads at GPIOs 14-21; connect VGA sub-board to main board by the ribbon cable.
+* v2.0:
+  N.A. - v2.0 is HDMI only.
 ## Dual-Language Support
 The pin on the v1.5 and v1.6 boards is for AltChr connection, supported by A2DVI firmware for switching between alternative character sets on non-US versions of Apple II ("Euro-machines").
 
