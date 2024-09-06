@@ -50,6 +50,7 @@ To switch between modes, a firmware update is required and opening/closing conne
 The pin on the v1.5 and later boards is for AltChr connection, supported by A2DVI firmware for switching between alternative character sets on non-US versions of Apple II ("Euro-machines").
 
 ![A2DVI PCB](v1.6/A2DVI.v1.6.jpg)
+![A2DVI PCB](v1.7/A2DVI.v1.7.jpg)
 ![A2DVI PCB](v2.0/A2DVI.v2.0.jpg)
 
 # Hardware
