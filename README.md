@@ -15,6 +15,9 @@ For the VGA output to be active, the [VGA firmware](https://github.com/markadev/
 The card can produce either an analog VGA or a digital HDMI signal, but not both simultaneously.
 To switch between modes, a firmware update is required and opening/closing connections.
 
+As of v2.0 VGA function is not supported - the card is DVI only.
+V2.2 has an onboard driver to invoke the configuation utility by PR#N, where N is the slot number.
+
 ## Procedure to activate DVI mode
 * v1.2:
   program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico;
