@@ -1,1 +1,0 @@
-Version 4.1 has bidirectional data capabilities and can function not only as a HDMI display card, but with additional firmware choices on board can change function to AppleMouse or Z80 emulation. More to come.
