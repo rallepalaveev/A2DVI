@@ -35,6 +35,8 @@ V2.2 has an onboard driver to invoke the configuation utility by PR#N, where N i
   program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico.
 * v2.2:
   program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico.
+  * v2.3:
+  program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico.
   
 ## Procedure to activate VGA mode
 * v1.2:
