@@ -16,8 +16,11 @@ The card can produce either an analog VGA or a digital HDMI signal, but not both
 To switch between modes, a firmware update is required and opening/closing connections.
 
 As of v2.0 VGA function is not supported - the card is DVI only.
+
 V2.2 has an onboard driver to invoke the configuation utility by PR#N, where N is the slot number.
+
 V2.3 is a TH version with 74HC245 and requires a DVI break-out board.
+
 V2.4 is a TH version with 74HC244 and requires a DVI break-out board.
 
 ## Procedure to activate DVI mode
