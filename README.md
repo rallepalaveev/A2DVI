@@ -17,6 +17,8 @@ To switch between modes, a firmware update is required and opening/closing conne
 
 As of v2.0 VGA function is not supported - the card is DVI only.
 V2.2 has an onboard driver to invoke the configuation utility by PR#N, where N is the slot number.
+V2.3 is a TH version with 74HC245 and requires a DVI break-out board.
+V2.4 is a TH version with 74HC244 and requires a DVI break-out board.
 
 ## Procedure to activate DVI mode
 * v1.2:
@@ -34,6 +36,10 @@ V2.2 has an onboard driver to invoke the configuation utility by PR#N, where N i
 * v2.0:
   program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico.
 * v2.2:
+  program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico.
+* v2.3:
+  program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico.
+* v2.4:
   program [A2DVI-Firmware](https://github.com/ThorstenBr/A2DVI-Firmware) to RPI Pico.
   
 ## Procedure to activate VGA mode
@@ -53,6 +59,10 @@ V2.2 has an onboard driver to invoke the configuation utility by PR#N, where N i
   N.A. - v2.0 is HDMI only.
 * v2.2:
   N.A. - v2.2 is HDMI only.
+  * v2.3:
+  N.A. - v2.3 is HDMI only.
+* v2.4:
+  N.A. - v2.4 is HDMI only.
   
 ## Dual-Language Support
 The pin on the v1.5 and later boards is for AltChr connection, supported by A2DVI firmware for switching between alternative character sets on non-US versions of Apple II ("Euro-machines").
