@@ -59,7 +59,7 @@ V2.4 is a TH version with 74HC244 and requires a DVI break-out board.
   N.A. - v2.0 is HDMI only.
 * v2.2:
   N.A. - v2.2 is HDMI only.
-  * v2.3:
+* v2.3:
   N.A. - v2.3 is HDMI only.
 * v2.4:
   N.A. - v2.4 is HDMI only.
