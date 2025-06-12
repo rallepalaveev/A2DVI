@@ -76,6 +76,7 @@ The pin on the v1.5 and later boards is for AltChr connection, supported by A2DV
 ![A2DVI PCB](v1.7/A2DVI.v1.7.jpg)
 ![A2DVI PCB](v2.0/A2DVI.v2.0.jpg)
 ![A2DVI PCB](v2.0/A2DVI.v2.2.jpg)
+![A2DVI PCB](v2.3/A2DVI.v2.3-2.jpg)
 ![A2DVI PCB](v2.3/A2DVI.v2.3.jpg)
 ![A2DVI PCB](v2.4/A2DVI.v2.4.jpg)
 
