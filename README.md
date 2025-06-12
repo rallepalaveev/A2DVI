@@ -67,7 +67,7 @@ V2.4 is a TH version with 74HC244 and requires a DVI break-out board.
 * v2.4:
   N.A. - v2.4 is HDMI only.
 
-Note: In versions 2.3 and 2.4 I experimented with replacing the 8x 270 ohm resistors on the DVI lines by 100pF capacitors to achieve better separation form potential 3.3V DC leak from the screen; while this worked, some screens are more prone to noise and results may still be better with 270 resistors.
+Note: In versions 2.3 and 2.4 I experimented with replacing the 8x 270-ohms resistors on the DVI lines by 100pF capacitors to achieve better separation form potential 3.3V DC leak from the screen; while this worked, some screens are more prone to noise and results may still be better with the 270-ohms resistors.
   
 ## Dual-Language Support
 The pin on the v1.5 and later boards is for AltChr connection, supported by A2DVI firmware for switching between alternative character sets on non-US versions of Apple II ("Euro-machines").
