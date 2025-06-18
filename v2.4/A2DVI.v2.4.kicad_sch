@@ -10803,6 +10803,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 246.38 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40ae9261-43f6-47d0-8f2e-d579b770c818")
+		(property "Reference" "R6"
+			(at 246.38 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 246.38 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 246.38 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08061fab-2a35-4dfe-b715-8991d5128d90")
+		)
+		(pin "2"
+			(uuid "5faa57c3-a20d-4973-84aa-d6e68a0aee02")
+		)
+		(instances
+			(project "A2DVI.v2.4"
+				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 110.49 186.69 0)
 		(unit 1)
@@ -10867,6 +10934,73 @@
 			(project "A2DVI.v2.0"
 				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 234.95 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "417f3ffc-0259-4887-8286-6d1a3aeb996c")
+		(property "Reference" "R11"
+			(at 234.95 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 234.95 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 234.95 55.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d26235a6-f6fd-4ded-94bc-ac221a0def04")
+		)
+		(pin "2"
+			(uuid "0da0f591-bf19-4282-9ed5-021fc38e0e8d")
+		)
+		(instances
+			(project "A2DVI.v2.4"
+				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11154,75 +11288,6 @@
 			(project "A2DVI.v2.0"
 				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 234.95 38.1 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "755486cc-2bfe-4da7-8b5d-d448735be37b")
-		(property "Reference" "C12"
-			(at 236.728 39.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 228.6 39.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 39.0652 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffccd269-4543-4233-8936-98367e5597d7")
-		)
-		(pin "2"
-			(uuid "cd7fbc1c-ddbf-4115-a9b1-570a548ed19f")
-		)
-		(instances
-			(project "A2DVI.v2.3"
-				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -11625,144 +11690,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 234.95 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88c4a347-0211-420b-ab3b-b4c1391ee5fb")
-		(property "Reference" "C8"
-			(at 236.728 54.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 228.6 54.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 54.3052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf61bb2d-f88e-43b7-9a18-0bba56478b4e")
-		)
-		(pin "2"
-			(uuid "49feb647-ee3e-4ab5-90cd-f3f518467389")
-		)
-		(instances
-			(project "A2DVI.v2.3"
-				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 246.38 58.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8e0cbfa6-3507-4bdb-8844-dedf3fc77ee2")
-		(property "Reference" "C7"
-			(at 248.158 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 240.03 59.944 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 59.3852 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9d3fc29-02a3-46e7-906b-32500948414b")
-		)
-		(pin "2"
-			(uuid "e2a86399-4729-4171-9709-bc3d4a2f5e3b")
-		)
-		(instances
-			(project "A2DVI.v2.3"
-				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 83.82 69.85 0)
 		(unit 1)
@@ -11824,6 +11751,73 @@
 			(project "A2DVI.v2.0"
 				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 234.95 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98fbdf35-18be-4437-891d-2856d063e324")
+		(property "Reference" "R5"
+			(at 234.95 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 234.95 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 234.95 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7efff0b-14d4-4686-a471-33286b20b6b5")
+		)
+		(pin "2"
+			(uuid "df9ceab1-0a48-4936-9371-4120ea785057")
+		)
+		(instances
+			(project "A2DVI.v2.4"
+				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -11895,75 +11889,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 246.38 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9af1edd4-064e-4714-8cb2-6f5d77e5a1ec")
-		(property "Reference" "C11"
-			(at 248.158 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 240.03 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 44.1452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "783f152c-1e09-46e6-8089-541b32028216")
-		)
-		(pin "2"
-			(uuid "8768232e-a847-4a62-b49a-871524ce1136")
-		)
-		(instances
-			(project "A2DVI.v2.3"
-				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 85.09 190.5 0)
 		(unit 1)
@@ -12029,34 +11954,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 234.95 45.72 270)
+		(lib_id "Device:R")
+		(at 246.38 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9d6b33aa-5bd5-4739-b88e-6d1f1283d1e1")
-		(property "Reference" "C10"
-			(at 236.728 47.244 90)
+		(uuid "9c4181c3-6be7-45fc-830f-a5ad112100b8")
+		(property "Reference" "R12"
+			(at 246.38 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100p"
-			(at 228.6 47.244 90)
+		(property "Value" "270"
+			(at 246.38 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 231.14 46.6852 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 246.38 60.198 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12065,7 +11988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 45.72 0)
+			(at 246.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12074,7 +11997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 45.72 0)
+			(at 246.38 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,15 +12006,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2720c879-5368-403e-80e7-2a64fc3b78cf")
+			(uuid "48c774c8-7cc2-42c0-819a-8295087aab46")
 		)
 		(pin "2"
-			(uuid "8170b84f-250b-47d6-aca0-ba75c9b17d6b")
+			(uuid "36fc703b-78dd-4920-b3ba-7bd503e07f96")
 		)
 		(instances
-			(project "A2DVI.v2.3"
+			(project "A2DVI.v2.4"
 				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
-					(reference "C10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -12820,6 +12743,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 246.38 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5d710c7-fb71-4707-ba76-bcc6d5b42697")
+		(property "Reference" "R8"
+			(at 246.126 40.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 246.38 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 246.38 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d5dcfc3-c5ee-4bc3-84b7-0eca362f2f48")
+		)
+		(pin "2"
+			(uuid "d07d3f2d-2093-4dbf-8196-20dbc6a51c6b")
+		)
+		(instances
+			(project "A2DVI.v2.4"
+				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 72.39 186.69 0)
 		(unit 1)
@@ -12956,34 +12946,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 234.95 30.48 270)
+		(lib_id "Device:R")
+		(at 234.95 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d66eb30b-c5b6-41c9-915a-37f04d914c1a")
-		(property "Reference" "C14"
-			(at 236.728 32.004 90)
+		(uuid "d9281e64-5b23-4abc-86aa-4ee3f5f5b4ef")
+		(property "Reference" "R9"
+			(at 234.95 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100p"
-			(at 228.6 32.004 90)
+		(property "Value" "270"
+			(at 234.95 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 231.14 31.4452 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 234.95 47.498 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12992,7 +12980,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 30.48 0)
+			(at 234.95 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13001,7 +12989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 234.95 30.48 0)
+			(at 234.95 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13010,49 +12998,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd22229f-8253-4028-b134-b607556f5c1f")
+			(uuid "5eb22483-6098-417a-aaa7-8ac63829852e")
 		)
 		(pin "2"
-			(uuid "24d8430e-e91c-4561-b167-abf189cff17e")
+			(uuid "9404b06d-9888-4a33-9b14-0dfff3ea0079")
 		)
 		(instances
-			(project "A2DVI.v2.3"
+			(project "A2DVI.v2.4"
 				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
-					(reference "C14")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 246.38 50.8 270)
+		(lib_id "Device:R")
+		(at 246.38 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d9861b25-8243-4743-bba8-e93c2adbd150")
-		(property "Reference" "C9"
-			(at 248.158 52.324 90)
+		(uuid "dc1cf149-1f27-484b-9ccf-167741f3680f")
+		(property "Reference" "R10"
+			(at 246.38 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100p"
-			(at 240.03 52.324 90)
+		(property "Value" "270"
+			(at 246.38 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 242.57 51.7652 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 246.38 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13079,15 +13065,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d37f2e78-4f0a-4f07-8e71-ecf2405ac0c2")
+			(uuid "c5d5be5b-81b7-4709-b454-8de4cb88b39f")
 		)
 		(pin "2"
-			(uuid "e6531327-c173-4e1f-b4bf-40fadf6bbfbb")
+			(uuid "a50d6f05-5535-4980-979b-08b80046952d")
 		)
 		(instances
-			(project "A2DVI.v2.3"
+			(project "A2DVI.v2.4"
 				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
-					(reference "C9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13290,75 +13276,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 246.38 35.56 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e014e177-f9c8-40cb-8613-6ef7cadbdda3")
-		(property "Reference" "C13"
-			(at 248.158 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 240.03 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 36.5252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 246.38 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10805a0a-5ac6-4230-9ccb-1b91030d9383")
-		)
-		(pin "2"
-			(uuid "c580e83f-4b48-4d45-a7d2-c3b8836b25ca")
-		)
-		(instances
-			(project "A2DVI.v2.3"
-				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 97.79 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13422,6 +13339,73 @@
 			(project "A2DVI.v2.0"
 				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 234.95 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e829b9d2-ae2d-40aa-879a-dd8841081115")
+		(property "Reference" "R7"
+			(at 234.95 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 234.95 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 234.95 39.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbbdb417-e451-4a40-af54-b3143b98f6d4")
+		)
+		(pin "2"
+			(uuid "713d5a7e-db99-4b73-8529-770145399b13")
+		)
+		(instances
+			(project "A2DVI.v2.4"
+				(path "/4c6c2bca-2dd1-4d7b-a3c3-50b1d850646e"
+					(reference "R7")
 					(unit 1)
 				)
 			)
