@@ -66,8 +66,11 @@ V2.4 is a TH version with 74HC244 and requires a DVI break-out board.
   N.A. - v2.3 is HDMI only.
 * v2.4:
   N.A. - v2.4 is HDMI only.
+* v4.4:
+  N.A. - v4.4 is HDMI only.
 
 Note: In version 2.4 I experimented with replacing the 8x 270-ohms resistors on the DVI lines by 100pF capacitors to achieve better separation form potential 3.3V DC leak from the screen; while this worked, some screens are more prone to noise and results may still be better with the 270-ohms resistors.
+Note: Version 4.4 is bidirectional and can work as a variety of functionalities. Firmware is closed source so far.
   
 ## Dual-Language Support
 The pin on the v1.5 and later boards is for AltChr connection, supported by A2DVI firmware for switching between alternative character sets on non-US versions of Apple II ("Euro-machines").
@@ -78,6 +81,7 @@ The pin on the v1.5 and later boards is for AltChr connection, supported by A2DV
 ![A2DVI PCB](v2.0/A2DVI.v2.2.jpg)
 ![A2DVI PCB](v2.3/A2DVI.v2.3-2.jpg)
 ![A2DVI PCB](v2.4/A2DVI.v2.4.jpg)
+![A2DVI PCB](v4.4/A2DVI.v4.4.jpg)
 
 # Hardware
 * Based on the PICO controller board.
