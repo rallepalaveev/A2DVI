@@ -1,6 +1,6 @@
-A2DVI.v4.4: Digital Video card for Apple II Computers with multifunction capabilities
+# A2DVI.v4.4: Digital Video card for Apple II Computers with multifunction capabilities
 
-Preface
+## Preface
 
 This is a firmware project for a digital DVI/HDMI video card for Apple II. It directly produces a digital video stream from the Apple II's memory content. The signal is output via an HDMI connector, connecting the Apple II to modern displays with HDMI (or DVI) inputs. No more analog signal conversion required.
 
@@ -14,7 +14,7 @@ Version 4.x of the card is now bi-directional as well as the hardware is directl
 
 This new design allow for housing of programs on the card which can communicate back and forth with the A2 computer. This has allowed for several firmwares to be pre-loaded on the card and each one can be used at a time, turning the card into a specific functional card.
 
-Firmwares on the card
+## Firmwares on the card
 
 Currently there are 5 firmwares on the card:
 
