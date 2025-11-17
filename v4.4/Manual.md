@@ -36,7 +36,7 @@ If cold reset is performed (Ctrl-OpenApple-Reset), this does not affect the func
 
 ## Each firmware function is described below.
 
-1. A2DVI. All functions are the same as described in the original design of version 2.x: https://github.com/ThorstenBr/A2DVI-Firmware The only difference is that by running PR#N, while DVI is active, the DVI configuration menu would be started. During DVI function the LED blinks fast.
+1. A2DVI. All functions are the same as described in the original design of version 2.x: https://github.com/ThorstenBr/A2DVI-Firmware The only difference is that by running PR#N, while DVI is active, the DVI configuration menu would be started - no config disk is needed. During DVI function the LED blinks fast.
 
 2. Z80 emulator for Applicard CPM. If this mode is selected, then the user can boot Applicard CPM, an example disk is here: https://github.com/rallepalaveev/A2DVI/blob/main/v4.4/PCPI%20AppliCard%20D1.po Suggested card slot: 4.
 
