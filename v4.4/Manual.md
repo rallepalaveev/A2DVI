@@ -34,7 +34,7 @@ If during the 15 second timeout nothing is done, upon timeout completion the pre
 
 If cold reset is performed (Ctrl-OpenApple-Reset), this does not affect the function of the firmware - the timeout is not invoked. It is only active after a power on.
 
-Each firmware function is described below.
+## Each firmware function is described below.
 
 1. A2DVI. All functions are the same as described in the original design of version 2.x: https://github.com/ThorstenBr/A2DVI-Firmware The only difference is that by running PR#N, while DVI is active, the DVI configuration menu would be started. During DVI function the LED blinks fast.
 
