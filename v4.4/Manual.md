@@ -38,7 +38,7 @@ Each firmware function is described below.
 
 1. A2DVI. All functions are the same as described in the original design of version 2.x: https://github.com/ThorstenBr/A2DVI-Firmware The only difference is that by running PR#N, while DVI is active, the DVI configuration menu would be started. During DVI function the LED blinks fast.
 
-2. Z80 emulator for Applicard CPM. If this mode is selected, then the user can boot Applicard CPM, an example disk is here: Suggested card slot: 4.
+2. Z80 emulator for Applicard CPM. If this mode is selected, then the user can boot Applicard CPM, an example disk is here: ![A2DVI PCB](v4.4/PCPI AppliCard D1.po)Suggested card slot: 4.
 
 3. and 4. Apple II Mouse Card (PAL and NTSC). This firmware turns the card into a Mouse controller - it has to be installed in Slot4 and a USB mouse connected to the USB-c port of the card (an adapter may be needed for USB-A mouse). Once the firmware becomes active (15s after power-on)
 
