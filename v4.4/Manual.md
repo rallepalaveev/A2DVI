@@ -12,7 +12,7 @@ The initial designs v1.x and v2.x have been unidirectional where the card is sno
 
 Version 4.x of the card is now bi-directional and the hardware is directly manufactured with a RP2040 processor on board, instead a RPI Pico.
 
-This new design allow for housing of programs on the card which can communicate back and forth with the A2 computer. This has allowed for several firmwares to be pre-loaded on the card and each one can be used at a time, turning the card into a specific function card.
+This new design allows for housing of programs on the card which can communicate back and forth with the A2 computer. This has allowed for several firmwares to be pre-loaded on the card and each one can be used at a time, turning the card into a specific function card.
 
 ## Firmwares on the card
 
