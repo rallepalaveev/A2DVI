@@ -10,7 +10,7 @@ The hardware is based on the PICO controller board. Both, original PICO (RP2040)
 
 The initial designs v1.x and v2.x have been unidirectional where the card is snooping on the A2 computer address, data and control buses and creates a shadow image of what is to be displayed. The image is then sent to the HDMI output as digital video. More information on the technology is here: https://github.com/ThorstenBr/A2DVI-Firmware
 
-Version 4.x of the card is now bi-directional as well as the hardware is directly manufactured with a RP2040 processor on board, instead a RPI Pico.
+Version 4.x of the card is now bi-directional and the hardware is directly manufactured with a RP2040 processor on board, instead a RPI Pico.
 
 This new design allow for housing of programs on the card which can communicate back and forth with the A2 computer. This has allowed for several firmwares to be pre-loaded on the card and each one can be used at a time, turning the card into a specific function card.
 
