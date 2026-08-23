@@ -70,11 +70,16 @@ V2.4 is a TH version with 74HC244 and requires a DVI break-out board.
   N.A. - v4.4 is HDMI only.
 * v4.6:
   N.A. - v4.6 is HDMI only.
+  * v5.x:
+  N.A. - v5.x are HDMI only.
 
 Note: In version 2.4 I experimented with replacing the 8x 270-ohms resistors on the DVI lines by 100pF capacitors to achieve better separation form potential 3.3V DC leak from the screen; while this worked, some screens are more prone to noise and results may still be better with the 270-ohms resistors.
 
 Note2: Version 4.4 is bidirectional and can work as a variety of functionalities. Firmware is closed source so far. V4.6 has some optimizations.
-  
+
+Note3: Versions 5.x are based on CPB with RP2354B and are 5V tolerant and has 48 GPIOs available. This eliminates the need
+for level shifting and multiplexing.
+
 ## Dual-Language Support
 The pin on the v1.5 and later boards is for AltChr connection, supported by A2DVI firmware for switching between alternative character sets on non-US versions of Apple II ("Euro-machines").
 
@@ -94,6 +99,7 @@ The pin on the v1.5 and later boards is for AltChr connection, supported by A2DV
 * Low power/heat dissipation: less than 70mA@5V = 0.35W in operation.
 * Uses 4x 74LV245 bus transceivers for 5V/3.3V signal conversion of the Apple II bus.
 * Separate ALTCHR input pin for dual-language support: pin needs to be wired separately to the "language switch" of Euro-Apple IIs (optional).
+* Versions 5.x do not need level shifters.
 
 # Thanks
 This is a project based on:
@@ -107,7 +113,7 @@ This is a project based on:
 * Oliver Schmidt on original idea discussions and design considerations
 
 # License
-Board design by Ralle Palaveev (c) 2024.
+Board design by Ralle Palaveev (c) 2026.
 
 All rights reserved.
 
