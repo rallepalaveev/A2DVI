@@ -112,6 +112,8 @@ This is a project based on:
 
 * Oliver Schmidt on original idea discussions and design considerations
 
+* Mike Neil for adapting the firmware for v5.x.
+
 # License
 Board design by Ralle Palaveev (c) 2026.
 
