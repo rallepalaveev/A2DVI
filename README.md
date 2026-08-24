@@ -91,7 +91,7 @@ The pin on the v1.5 and later boards is for AltChr connection, supported by A2DV
 ![A2DVI PCB](v2.4/A2DVI.v2.4.jpg)
 ![A2DVI PCB](v4.4/A2DVI.v4.4.jpg)
 ![A2DVI PCB](v4.6/A2DVI.v4.6.png)
-![A2DVI PCB](v5.x/A2DVI.v5.1.jpg)
+![A2DVI PCB](v5.x/A2DVI.v5.1.jpeg)
 
 # Hardware
 * Based on the PICO controller board.
