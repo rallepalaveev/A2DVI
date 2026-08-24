@@ -78,7 +78,7 @@ Note: In version 2.4 I experimented with replacing the 8x 270-ohms resistors on 
 Note2: Version 4.4 is bidirectional and can work as a variety of functionalities. Firmware is closed source so far. V4.6 has some optimizations.
 
 Note3: Versions 5.x are based on CPB with RP2354B and are 5V tolerant and has 48 GPIOs available. This eliminates the need
-for level shifting and multiplexing.
+for level shifting and multiplexing. This version had DVI function and can support RTC via a dedicated connector.
 
 ## Dual-Language Support
 The pin on the v1.5 and later boards is for AltChr connection, supported by A2DVI firmware for switching between alternative character sets on non-US versions of Apple II ("Euro-machines").
@@ -91,7 +91,7 @@ The pin on the v1.5 and later boards is for AltChr connection, supported by A2DV
 ![A2DVI PCB](v2.4/A2DVI.v2.4.jpg)
 ![A2DVI PCB](v4.4/A2DVI.v4.4.jpg)
 ![A2DVI PCB](v4.6/A2DVI.v4.6.png)
-![A2DVI PCB](v5.x/A2DVI.v5.1.png)
+![A2DVI PCB](v5.x/A2DVI.v5.1.jpg)
 
 # Hardware
 * Based on the PICO controller board.
